@@ -1,0 +1,94 @@
+{
+   "features": [
+     {
+       "id": "feature-1",
+       "name": "Consulente Fiscale",
+       "icon": "fas fa-headphones-alt",
+       "iconColor": "",
+       "description": "Lorem ipsum dolor Lorem ipsum dolor Lorem ipsum dolor Lorem ipsum dolor Lorem ipsum dolor Lorem ipsum dolor Lorem ipsum dolor Lorem ipsum dolor Lorem ipsum dolor "
+     },
+     {
+       "id": "feature-2",
+       "name": "Applicazione Web",
+       "icon": "fas fa-desktop",
+       "iconColor": "green",
+       "description": "Lorem ipsum dolor Lorem ipsum dolor Lorem ipsum dolor Lorem ipsum dolor Lorem ipsum dolor Lorem ipsum dolor Lorem ipsum dolor Lorem ipsum dolor Lorem ipsum dolor "
+     },
+     {
+       "id": "feature-3",
+       "name": "Previsioni",
+       "icon": "fas fa-chart-line",
+       "iconColor": "blue",
+       "description": "Lorem ipsum dolor Lorem ipsum dolor Lorem ipsum dolor Lorem ipsum dolor Lorem ipsum dolor Lorem ipsum dolor Lorem ipsum dolor Lorem ipsum dolor Lorem ipsum dolor "
+     }
+   ],
+   "pricing": [
+     {
+       "id": "price-1",
+       "name": "Base",
+       "features": [
+         "Consulenza fiscale iniziale",
+         "Apertura partita IVA",
+         "Fatture elettroniche illimitate",
+         "Invio dei modelli F24 annuali",
+         "Invio dichiarazione dei redditi",
+         "Gestione clienti",
+         "Previsione tasse e previdenza"
+       ],
+       "value": "250€"
+     },
+     {
+       "id": "price-2",
+       "name": "Intermedio",
+       "features": [
+         "Consulenza fiscale iniziale",
+         "Apertura partita IVA",
+         "Fatture elettroniche illimitate",
+         "Invio dei modelli F24 annuali",
+         "Invio dichiarazione dei redditi",
+         "Gestione clienti",
+         "Previsione tasse e previdenza",
+         "Consulente fiscale dedicato",
+         "Gestione delle spese"
+       ],
+       "value": "600€"
+
+     },
+     {
+       "id": "price-3",
+       "name": "Avanzato",
+       "features": [
+         "Consulenza fiscale iniziale",
+         "Apertura partita IVA",
+         "Fatture elettroniche illimitate",
+         "Invio dei modelli F24 annuali",
+         "Invio dichiarazione dei redditi",
+         "Gestione clienti",
+         "Previsione tasse e previdenza",
+         "Consulente fiscale dedicato",
+         "Gestione delle spese",
+         "Calcolo IMU e TASI",
+         "PEC",
+         "Firma elettronica qualificata"
+       ],
+       "value": "1000€"
+     }
+   ],
+   "questions": [
+     {
+       "id": "faq-1",
+       "title": "EasyFisco &egrave; un commercialista?",
+       "answer": "EasyFisco non &egrave; un commercialista. &Egrave; un'azienda tecnologica che ti permette di gestire la tua contabilit&agrave; e i tuoi clienti attraverso una piattaforma software ed un servizio di consulenza generica con il supporto di consulenti fiscali specializzati. Tutte le attivit&agrave; riservate sono svolte da un commercialista partner iscritto all'Albo dei Dottori Commercialisti."
+     },
+     {
+       "id": "faq-2",
+       "title": "Quali professioni gestite?",
+       "answer": "Tutte, perch&eacute; abbiamo un consulente dedicato per ogni campo d'impresa. Dall'avvocato all'azienda agricola, dallo Youtuber al cuoco a domicilio."
+     },
+     {
+       "id": "faq-3",
+       "title": "Come posso contattarvi?",
+       "answer": "Visita la nostra pagina Contattaci. Puoi inviarci una mail, chiamarci oppure venirci a trovare nella nostra sede di Milano."
+     }
+   ]
+}

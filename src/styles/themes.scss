@@ -1,0 +1,13 @@
+@use './partials/general';
+@use './partials/navbar';
+@use './partials/header';
+@use './partials/features';
+@use './partials/details';
+@use './partials/invitation';
+@use './partials/pricing';
+@use './partials/faq';
+@use './partials/footer';
+@use './partials/contact';
+@use './partials/media';
+
+@import 'bootstrap/dist/css/bootstrap.css';
