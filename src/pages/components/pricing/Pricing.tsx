@@ -32,7 +32,7 @@ const Pricing: React.FC<PricingProps> = ({ items }) => {
                         {
                           item.features.map((feature: string, index: number) => {
                             return (
-                              <li key={`feature-${index}`}>{feature}</li>
+                              <li key={`feature-${index}`} dangerouslySetInnerHTML={{__html: feature}}></li>
                             );
                           })
                         }

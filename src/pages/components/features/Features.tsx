@@ -21,8 +21,8 @@ const Features: React.FC<{items: Feature[]}> = ({items}) => {
                        <span className={feature.icon}></span>
                      </div>
                      <div className="card-body">
-                       <h3 className="card-title">{feature.name}</h3>
-                       <p>{feature.description}</p>
+                       <h3 className="card-title" dangerouslySetInnerHTML={{__html: feature.name}}></h3>
+                       <p dangerouslySetInnerHTML={{__html: feature.description}}></p>
                      </div>
                    </div>
                  )

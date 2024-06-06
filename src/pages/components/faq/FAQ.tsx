@@ -36,8 +36,7 @@ const FAQ: React.FC<FAQProps> = ({ items }) => {
                            data-bs-toggle="collapse"
                            data-bs-target={`#${item.id}`}
                            onClick={()=>handleClick(item.id)}
-                         >
-                           {item.title}
+                           dangerouslySetInnerHTML={{ __html: item.title}}>
                          </button>
                        </h2>
                        <div
@@ -45,7 +44,7 @@ const FAQ: React.FC<FAQProps> = ({ items }) => {
                          className={`accordion-collapse collapse ${showClassName}`}
                          data-bs-parent="#my-accordion"
                        >
-                         <div className="accordion-body">{item.answer}</div>
+                         <div className="accordion-body" dangerouslySetInnerHTML={{ __html: item.answer}}></div>
                        </div>
                      </div>
                    );
